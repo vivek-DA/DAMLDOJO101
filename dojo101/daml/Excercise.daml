@@ -2,21 +2,6 @@
 -- SPDX-License-Identifier: Apache-2.0
 daml 1.2
 module Excercise where
-------------------------STEP 3----------------------------
-
--- data ProposalType = Tenant | Landlord
---   deriving (Eq, Show)
-
--- -- Signature of a function
--- flipProposal : ProposalType -> ProposalType
--- -- Implementation of a function
--- -- Intent is to receive a proposal type return the other proposaltype
-
--- -- Signature of a function
--- findRoles : Party -> Party -> ProposalType -> (Party, Party)
--- -- Implementation of a function
--- -- Intent is to receive two parties and proposal type and identify who is tenant vs landlord
-------------------------STEP 3----------------------------
 
 ------------------------STEP 2----------------------------
 
@@ -36,10 +21,6 @@ module Excercise where
 --           -- what should the the rule be
 
 
---      controller WHO can
---       Counter : -- what should it return 
---         do
---           -- what should the the rule be
 ------------------------STEP 2----------------------------
 
 ------------------------STEP 1----------------------------
@@ -52,11 +33,3 @@ module Excercise where
 --     -- identify who have read access if any
 ------------------------STEP 1----------------------------
 
-
-setup = scenario do
-  alice <- getParty "Alice"
-  bob <- getParty "Bob"
-  agent <- getParty "MyAgent"
-
-  return ()
-  
