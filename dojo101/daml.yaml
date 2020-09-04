@@ -1,4 +1,4 @@
-sdk-version: 1.1.1
+sdk-version: 1.4.0
 name: dojo101
 source: daml
 parties:
